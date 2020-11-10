@@ -1,0 +1,57 @@
+FEATURE LIST TO SUPPORT :
+
+1. Should support different kinds of elements - PARTIAL
+    1. Button - PENDING
+    2. Currency
+    3. DateControl
+    4. Dropdownlist
+    5. FormTooltip - PENDING
+    6. Label
+    7. Number
+    8. Percentage
+    9. Radio - PENDING
+    10. Table
+    11. Text
+    12. Website
+    13. Year
+    14. Zipcode
+    15. Custom - PENDING
+2. All controls are by default based on React Availity controls library - DONE
+3. Allow custom inputs - custom handling of Validations etc - LATER
+4. Easy demo page to create Form Schema quickly - LATER
+5. Support for templates in place of direct form controls - DONE
+6. Support for Form Submit, validation - are all mandatory fields valid etc
+7. Support for updating one field based on other fields - dynamically or in code by referencing a particular control by its id (or some key)
+8. Support for dynamic content in Templates as well as labels
+9. Support for fetching and shaping data into the format that is required for finally passing to an API or saving in some form
+10. Form to use React context api and hooks (avoid using Redux library but allow saving to any particular storage solution if required) - DONE
+
+
+
+GRANULAR TODOS:
+1. Make sure all controls get rendered => DONE
+2. Make sure that all CSS is available to make the default controls look good => TODO
+3. Handling of onChange events - Default behaviour and hooking custom behaviour => TODO
+4. Apply Context API and hooks - should be able to create form from a fetched structure and pass it into a final structure of data => TODO
+
+
+
+TODOS :
+
+1. Find a solution for the keys being set as array - DONE - THE FORM CAN HAVE TABLES AND DIFFERENT ELEMENTS INSIDE THAT EXCEPT ANOTHER NESTED TABLE
+2. Make sure the Text field is the first one getting rendered completely and with state being managed through Context - DONE
+3. Make sure styling is external and can be provided separately - use of templates to show the inputs with labels - LATER
+4. OnChange handling ->
+    a. the field itself gets updated - DONE
+    b. the associated final state gets updated - DONE (performance optimization for LATER)
+    c. if any other value in the form depends upon this changed field, that field also gets updated - LATER (reflection)
+    d. adding of new rows to a table - LATER
+    e. removing of rows from a table - LATER
+    f. toolbar elements for the table -> action buttons and their function definition - LATER
+5. Make sure all types of controls are working - DONE
+6. Optional fields - differentiate optional and required fields - LATER
+7. Make sure validations work on every field type - TODO
+8. Clean up and make sure things are in the right place before committing. - TODO
+9. Make sure typescript is used efficiently and "any" should be removed from everywhere. - TODO
+10. Currency, Number, Year, Zipcode - currently all these work the same way. Need to have correct behaviours assigned as per the field type - LATER (for now the number field can be used in replacement for any of these)
+11. Disabled should work for all fields - DONE

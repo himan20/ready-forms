@@ -1,0 +1,23 @@
+.disabled-date-input{
+  width: 100%;
+  background: #fff;
+  color: #495057;
+  height: 38px;
+  text-align: left;
+  border: 1px solid rgb(206, 212, 218);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: inherit;
+  &:focus{
+      color: #495057;
+      background-color: #fff;
+      border-color: #bcbff0;
+      outline: 0;
+      box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  &:hover{
+      color: #495057;
+      background: #fff;
+      border: 1px solid rgb(206, 212, 218);
+  }
+}
