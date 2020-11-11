@@ -8,6 +8,9 @@
     "email": "himanj.20@gmail.com",
     "url": "https://github.com/himan20"
   },
+  "repository": {"url": "https://github.com/himan20/ready-forms", "type": "git"},
+  "license": "MIT",
+  "homepage": "https://github.com/himan20/ready-forms",
   "keywords": [
     "json",
     "schema",

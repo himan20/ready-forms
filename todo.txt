@@ -55,3 +55,7 @@ TODOS :
 9. Make sure typescript is used efficiently and "any" should be removed from everywhere. - TODO
 10. Currency, Number, Year, Zipcode - currently all these work the same way. Need to have correct behaviours assigned as per the field type - LATER (for now the number field can be used in replacement for any of these)
 11. Disabled should work for all fields - DONE
+
+
+Publishing guide followed : 
+https://blog.logrocket.com/the-complete-guide-to-publishing-a-react-package-to-npm/ 
