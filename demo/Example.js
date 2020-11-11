@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import { Button } from "reactstrap";
-import ReadyForm from "../src/components/ReadyForms/ReadyForm";
+import { ReadyForm, FormInCardTemplate, BasicFormControlTemplate } from "../dist/index";
 import { example, example2 } from "./exampleSchema";
-import FormInCardTemplate from "../src/components/ReadyForms/FormTemplates/FormInCardTemplate/FormInCardTemplate";
-import BasicFormControlTemplate from "../src/components/ReadyForms/FormControlTemplates/BasicFormControlTemplate/BasicFormControlTemplate";
 
 const Example = () => {
   const [formState, setFormState] = useState();

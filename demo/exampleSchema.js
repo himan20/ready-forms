@@ -1,6 +1,6 @@
-import { Form, CONTROL_TYPES, ERROR_MESSAGES } from "./schema/FormTypes";
+import { CONTROL_TYPES, ERROR_MESSAGES } from '../dist/index';
 
-export const example: Form = {
+export const example = {
     fields: [
         {
             type: CONTROL_TYPES.text,
@@ -220,7 +220,7 @@ export const example: Form = {
     ]
 }
 
-export const example2: Form = {
+export const example2 = {
     fields: [
         {
             type: CONTROL_TYPES.text,

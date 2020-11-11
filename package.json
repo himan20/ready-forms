@@ -1,6 +1,6 @@
 {
   "name": "ready-forms",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "dist/index.js",
   "description": "Ready forms allows you to create forms by simply providing a compliant json schema",
   "author": {
@@ -23,11 +23,16 @@
     "reactstrap": "^8.4.1"
   },
   "scripts": {
-    "build": "rollup -c",
-    "start": "rollup -c -w"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "prepublish": "rollup -c",
+    "rollup:watch": "rollup -c -w"
   },
   "files": [
-    "dist"
+    "dist",
+    "demo"
   ],
   "eslintConfig": {
     "extends": "react-app"
