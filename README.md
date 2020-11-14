@@ -5,7 +5,7 @@ Json schema based forms made simple (currently supports React 16.x versions)
 ### Installation and Usage
 
 ##### Step 1 : Install ready-forms
-<code>npm i ready-forms</code>
+<code>npm i --save ready-forms</code>
 
 
 ##### Step 2 : Add CSS
