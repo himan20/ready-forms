@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Button, Label } from "reactstrap";
-import { ReadyForm, FormInCardTemplate, BasicFormControlTemplate } from "../dist/index";
+import { ReadyForm, FormInCardTemplate, BasicFormControlTemplate } from "ready-forms";
 import { example, example2 } from "./exampleSchema";
 
 const Example = () => {

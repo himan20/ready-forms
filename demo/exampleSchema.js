@@ -1,4 +1,4 @@
-import { CONTROL_TYPES, ERROR_MESSAGES } from '../dist/index';
+import { CONTROL_TYPES, ERROR_MESSAGES } from 'ready-forms';
 
 export const example = {
     fields: [
