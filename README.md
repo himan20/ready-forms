@@ -77,7 +77,7 @@ Demo Form
 13. Currency, Number, Year, Zipcode - currently all these work the same way. Need to have correct behaviours assigned as per the field type (for now the number field can be used in replacement for any of these)
 
 
-#### Dependencies
+### Dependencies
 
 Ready-forms currently depends upon <i> availity-reactstrap-validation, bootstrap, react-datepicker</i> and <i>reactstrap </i> libraries which will get installed automatically when ready-forms is installed. If any of these libraries are not installed you can run this command to install all dependencies :
 
