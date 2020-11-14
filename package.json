@@ -1,6 +1,6 @@
 {
   "name": "ready-forms",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "main": "dist/index.js",
   "description": "Ready forms allows you to create forms by simply providing a compliant json schema",
   "author": {
@@ -19,7 +19,7 @@
     "dynamic form",
     "ready form"
   ],
-  "peerDependencies": {
+  "dependencies": {
     "availity-reactstrap-validation": "^2.6.1",
     "bootstrap": "^4.5.3",
     "react-datepicker": "^2.16.0",
@@ -30,7 +30,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prepublish": "rollup -c",
+    "prepublishOnly": "rollup -c",
     "rollup:watch": "rollup -c -w"
   },
   "files": [

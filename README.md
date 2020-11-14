@@ -1,10 +1,12 @@
-## Ready forms 
+## Ready forms
 Json schema based forms made simple (currently supports React 16.x versions)
 
 ### Installation and Usage
 <code>npm i ready-forms</code>
 
-#### Install Dependencies
+#### Dependencies
+
+Ready-forms currently depends upon <i> availity-reactstrap-validation, bootstrap, react-datepicker</i> and <i>reactstrap </i> libraries which will get installed automatically when ready-forms is installed. If any of these libraries are not installed you can run this command to install all dependencies :
 
 <code>npm i availity-reactstrap-validation bootstrap react-datepicker reactstrap</code>
 
@@ -13,12 +15,26 @@ Add the below lines to your index.js file
 
 <code>import 'bootstrap/dist/css/bootstrap.min.css';</br>import "react-datepicker/dist/react-datepicker.css";</code>
 
-### Gotchas 
-Currently there is an error in the build process. So when using this library you'll need to manually also install core-js using the below command : 
+### Gotchas
+Currently there is an error in the build process. So when using this library you'll need to manually also install core-js using the below command :
 <code>npm i --save core-js@2</code>
 
 <i>Read about this issue here : https://github.com/babel/babel/issues/9734#issuecomment-475175676</i>
 
+
+### How to see an Example form running
+
+1. Install ready-forms in your React 16.x project
+2. Find the demo folder in github repo, download the files from Demo folder into your own project's src folder. (you can also find these files in your node_modules folder after installing ready-forms)
+3. Replace the following line in Example.js :
+<code>import { ReadyForm, FormInCardTemplate, BasicFormControlTemplate } from "../dist/index";</code>
+with :
+<code>import { ReadyForm, FormInCardTemplate, BasicFormControlTemplate } from "ready-forms";</code>
+4. Now import the Example component in your main component where you want to see the demo app running.
+5. That's it! you should see a demo form loaded.
+
+Demo Form
+![](src/assets/demo.gif)
 
 ### What works
 1. Support for different input types:
@@ -28,7 +44,7 @@ Currently there is an error in the build process. So when using this library you
     * Label
     * Number
     * Percentage
-    * Radio - PENDING
+    * Radio
     * Table - (Note : nested tables are not supported)
     * Text
     * Website
