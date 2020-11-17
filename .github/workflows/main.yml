@@ -28,12 +28,16 @@ jobs:
       # Runs a single command using the runners shell
       - name: Install dependencies
         run: npm install
+        env: 
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       
       - name: Remove previous dist folder
         run: rm -rf dist
       
       - name: Prepublish
         run: npm run prepublishOnly
+        env: 
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       
       - name: Publish new version to NPM
         run: npm publish
