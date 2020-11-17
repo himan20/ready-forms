@@ -61,7 +61,6 @@ Demo Form
 1. Add pending form controls :
    - Button
    - FormTooltip
-   - Radio
    - Custom fields
 2. Remove dependency on bootstrap, reactstrap - no default styling
 3. Remove dependency on availity input controls - implement validation logic to remove this dependency
