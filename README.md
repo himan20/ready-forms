@@ -5,6 +5,7 @@ Json schema based forms made simple (currently supports React 16.x versions)
 ### Installation and Usage
 
 ##### Step 1 : Install ready-forms
+<a href="https://www.npmjs.com/package/ready-forms">Ready forms on NPM</a></br>
 <code>npm i --save ready-forms</code>
 
 
@@ -12,7 +13,7 @@ Json schema based forms made simple (currently supports React 16.x versions)
 
 Add the below lines to your index.js file
 
-<code>import 'bootstrap/dist/css/bootstrap.min.css';</code>
+<code>import 'bootstrap/dist/css/bootstrap.min.css';</code></br>
 <code>import "react-datepicker/dist/react-datepicker.css";</code>
 
 ##### Step 3 : Add core-js package to avoid errors
@@ -20,7 +21,7 @@ Add the below lines to your index.js file
 Currently there is an error in the build process. So when using this library you'll need to manually also install core-js using the below command :
 <code>npm i --save core-js@2</code>
 
-<i>Read about this issue here : https://github.com/babel/babel/issues/9734#issuecomment-475175676</i>
+<i><a href="https://github.com/babel/babel/issues/9734#issuecomment-475175676">Read about this issue here</a></i>
 
 ##### Step 4 : You're done!
 If you face difficulties finding your way around this library I suggest looking at the below How to section.
